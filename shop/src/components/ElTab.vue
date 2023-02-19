@@ -30,7 +30,7 @@ export default {
 
 <style scoped>
 .box {
-    /* border-style: dashed; */
+
     margin-left: 10px;
     margin-right: 10px;
 }

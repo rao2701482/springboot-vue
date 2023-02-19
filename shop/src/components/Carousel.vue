@@ -87,7 +87,6 @@ export default {
 <style scoped>
 .box {
     z-index: 4;
-    /* border-style: dashed; */
     /* padding-bottom: -20px; */
     margin-bottom: -6px;
 
@@ -95,7 +94,6 @@ export default {
 }
 
 .swiper-container {
-    /* border-style: dashed; */
     padding-top: 50px;
 
     /* 让当前页面在header的下方显示 */
@@ -105,7 +103,6 @@ export default {
 }
 
 #button-prev-next {
-    /* border-style: dashed; */
     /* 控制轮播图左右滑图标下移 */
     margin-top: 10px;
 }

@@ -1,10 +1,7 @@
   
 <template>
-    <div class="bon">
+    <div >
 
-<div>1</div><div>1</div><div>1</div><div>1</div><div>1</div><div>1</div><div>1</div><div>1</div>
-<div>1</div><div>1</div><div>1</div><div>1</div><div>1</div><div>1</div><div>1</div><div>1</div>
-<div>1</div><div>1</div><div>1</div><div>1</div><div>1</div><div>1</div><div>1</div><div>1</div>
 
 <el-button @click="drawer = true" type="primary" style="margin-left: 16px;">
             点我打开
@@ -48,10 +45,6 @@ export default {
 </script>
 
 <style scoped>
-.bon {
-    border-style: dashed;
-    margin-top: 200px;
-}
 
 .drawer {
     width: 400px;

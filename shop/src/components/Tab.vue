@@ -82,7 +82,7 @@ export default {
 
 <style scoped>
 .box {
-    /* border-style:dashed; */
+
     /* padding-top: 50px;; */
 }
 
@@ -97,7 +97,7 @@ height: 200px;
 }
 
 .tabItem {
-    /* border-style: dashed; */
+
 }
 
 /* 设置用于打开选项卡内容的按钮的样式 */

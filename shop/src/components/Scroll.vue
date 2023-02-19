@@ -5,7 +5,7 @@
         <!--
        on-loadmore: 滚动到底时触发
     -->
-        <vue-loadmore style="border-style: dashed;" :on-loadmore="onLoad" :finished="finished">
+        <vue-loadmore  :on-loadmore="onLoad" :finished="finished">
             <div v-for="(item, index) of list" :key="index" class="products">
 
                 <div class="product" v-if="index % 2 == 0">
@@ -127,17 +127,17 @@ export default {
     /* padding-bottom: 50px; */
     /* margin-bottom: 10px; */
 
-    /* border-style: dashed; */
+
 }
 
 .products {
-    /* border-style: dashed; */
+
     margin-bottom: 10px;
 }
 
 .product {
     margin-left: 5px;
-    /* border-style: dashed; */
+
     width: 47%;
     float:left;
 
@@ -151,7 +151,7 @@ export default {
 }
 
 .productLove {
-    /* border-style: dashed; */
+
     /* width: 30px;
     height: 30px; */
     
@@ -167,7 +167,7 @@ export default {
     font-size: small;
     float: left;
     width: 80%;
-    /* border-style: dashed; */
+
 }
 
 .productCar img {

@@ -7,8 +7,6 @@
 
         <ScrollUnit></ScrollUnit>
 
-
-
     </div>
 
 
@@ -34,14 +32,10 @@ export default {
 
 <style scoped>
 .box1 {
-    /* border-style: dashed; */
+
     /* background-color: bisque; */
     /* padding-top: 50px; */
     /* 让当前页面在header的下方显示 */
 }
 
-.noShow {
-    border-style: dashed;
-    margin-top: 440px;
-}
 </style>
